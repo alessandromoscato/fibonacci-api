@@ -1,3 +1,3 @@
-pip install fastapi
-pip install "uvicorn[standard]"
-pip install pytest
+#!/bin/bash
+
+pip install -r requirements.txt

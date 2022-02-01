@@ -31,15 +31,15 @@ def _nearest_fibonacci(num):
 
     ### Compute Fibonacci numbers recursively. Stop when the last 
     ### computed Fibonacci number is greater than (or equal to) 
-    ### the target number. This guarantees that the target number will 
+    ### the input number. This guarantees that the input number will 
     ### be between the last second and third Fibonacci numbers computed
     while (third <= num):
         first = second
         second = third
         third = first + second
 
-    ### Return the Fibonacci number closer to the target number. If the
-    ### target number is equally distanced between the last second and
+    ### Return the Fibonacci number closer to the input number. If the
+    ### input number is equally distanced between the last second and
     ### third Fibonacci numbers computed, return arbitrarily the second
     if (abs(third - num) >=
         abs(second - num)):
