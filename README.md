@@ -1,1 +1,1 @@
-# fibonacci_api
+# fibonacci-api
